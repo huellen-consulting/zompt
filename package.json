@@ -16,7 +16,8 @@
     "zod",
     "prompt",
     "inquirer",
-    "zompt"
+    "zompt",
+    "cli"
   ],
   "author": "Ryan Huellen <ryan@huellenconsulting.com>",
   "license": "MIT",
