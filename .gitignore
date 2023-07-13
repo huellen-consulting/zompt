@@ -1,0 +1,5 @@
+# Node modules
+node_modules/
+
+# tsup output directory
+dist/

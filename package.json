@@ -1,0 +1,40 @@
+{
+  "name": "zompt",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup ./src/index.ts --format cjs,esm --dts-resolve --minify --clean",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "start": "ts-node ./src/index.ts",
+    "format": "prettier --write ./src/**/*.ts",
+    "lint": "prettier --check ./src/**/*.ts && tsc",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "zod",
+    "prompt",
+    "inquirer",
+    "zompt"
+  ],
+  "author": "Ryan Huellen <ryan@huellenconsulting.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "deepmerge-ts": "^5.1.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@types/jest": "^29.5.3",
+    "husky": "^8.0.0",
+    "jest": "^29.6.1",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
