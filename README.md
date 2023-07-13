@@ -10,15 +10,15 @@ To date, traditional JavaScript prompting libraries such as [prompt](https://www
 
 ## Features
 
-- Text input
-  -- Runtime [zod](<(https://www.npmjs.com/package/zod)>) validation
-  -- Semantic error responses by preferring [zod](https://www.npmjs.com/package/zod) parsing errors
-- Select input
-  -- Static typing for choices
-  -- Ability to set a default
-- Multiselect input
-  -- Static typing for choices
-  -- Ability to set defaults
+* Text input
+  - Runtime [zod](<(https://www.npmjs.com/package/zod)>) validation
+  - Semantic error responses by preferring [zod](https://www.npmjs.com/package/zod) parsing errors
+* Select input
+  - Static typing for choices
+  - Ability to set a default
+* Multiselect input
+  - Static typing for choices
+   Ability to set defaults
 
 ## How to use it
 
