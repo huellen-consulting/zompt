@@ -10,7 +10,8 @@
     "start": "ts-node ./src/index.ts",
     "format": "prettier --write ./src/**/*.ts",
     "lint": "prettier --check ./src/**/*.ts && tsc",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "npm run build && npm publish"
   },
   "keywords": [
     "zod",
