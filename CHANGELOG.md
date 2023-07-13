@@ -1,5 +1,11 @@
 # zompt
 
+## 1.1.1
+
+### Patch Changes
+
+- 13ccf52: fix: added MIT `LICENSE` file
+
 ## 1.1.0
 
 ### Minor Changes
