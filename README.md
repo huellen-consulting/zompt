@@ -18,7 +18,7 @@ To date, traditional JavaScript prompting libraries such as [prompt](https://www
   - Ability to set a default
 * Multiselect input
   - Static typing for choices
-   Ability to set defaults
+  - Ability to set defaults
 
 ## How to use it
 
