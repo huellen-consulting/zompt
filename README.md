@@ -22,7 +22,7 @@ To date, traditional JavaScript prompting libraries such as [prompt](https://www
 
 ## How to use it
 
-First, install [zompt](https://github.com/huellen-consulting/zompt) from [npm](https://www.npmjs.com/package/prompt).
+First, install [zompt](https://github.com/huellen-consulting/zompt) from [npm](https://www.npmjs.com/package/zompt).
 
 ```bash
 npm i zompt
