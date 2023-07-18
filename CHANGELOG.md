@@ -1,5 +1,11 @@
 # zompt
 
+## 1.1.4
+
+### Patch Changes
+
+- 424e70e: fix: files publish
+
 ## 1.1.3
 
 ### Patch Changes
