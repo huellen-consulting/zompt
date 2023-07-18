@@ -1,5 +1,11 @@
 # zompt
 
+## 1.1.2
+
+### Patch Changes
+
+- 1b5cb62: publishing `dist` directory properly
+
 ## 1.1.1
 
 ### Patch Changes
