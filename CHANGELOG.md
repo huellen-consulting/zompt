@@ -1,5 +1,11 @@
 # zompt
 
+## 1.1.3
+
+### Patch Changes
+
+- c462e6d: fix: second attempt to fix publishing
+
 ## 1.1.2
 
 ### Patch Changes
