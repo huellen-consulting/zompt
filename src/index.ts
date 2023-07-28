@@ -14,6 +14,8 @@ import { type LogOptions } from './objects/LogOptions';
 import { type LogType } from './objects/LogType';
 import { type PromptOptions } from './objects/PromptOptions';
 
+export { z };
+
 export class Zompt {
   configuration: Configuration;
   history: string[] = [];
